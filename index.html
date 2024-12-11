@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8BitForum</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #010085;
+            height: 40px;
+        }
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 5px 10px;
+            border: 2px solid #ccc;
+            background-color: #c0c1c1;
+            color: #000;
+            cursor: pointer;
+            box-shadow: 2px 2px 0px #808080, -2px -2px 0px #ffffff;
+            outline: none;
+            border-radius: 2px;
+            gap: 5px;
+            /* Yazı ve resim arasındaki boşluk */
+            height: 32px;
+            /* Sabit yükseklik */
+        }
+        .button-icon {
+            height: 56px;
+            width: 60px;
+            margin: 0;
+            padding: 0;
+            /* Resim boyutu */
+        }
+        button:active {
+            box-shadow: inset 2px 2px 0px #808080, inset -2px -2px 0px #ffffff;
+            background-color: #d0d0d0;
+        }
+        .div1 {
+            background-image: url(images/old-windows-1920-x-1080-background-ngg7bmgpkxrk69lm.jpg);
+            width: 98%;
+            height: 95%;
+        }
+
+        body {
+            background-color: #aaaaaa;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+        <nav>
+            <div>
+
+                <button>
+                    <img class="button-icon" src="images/anasayfa.png" alt="">
+                    <p>Anasayfa</p>
+
+                </button>
+            </div>
+        </nav>
+    </div>
+
+</body>
+
+</html>
