@@ -152,6 +152,7 @@ button:active {
     font-size: 2rem;
     margin: 20px;
     font-family: "Jersey 10", sans-serif;
+
 }
 
 .logo_p {
@@ -232,7 +233,6 @@ button:active {
     font-size: 1rem;
     margin-top: 4px;
     height: 80%;
-
     overflow: hidden; /* Taşmayı engelle */
     text-overflow: ellipsis; /* Taşan metin için "..." ekle */
     display: -webkit-box; /* Çok satırlı kesme için kutu */
@@ -266,4 +266,12 @@ footer{
    background-color: #070772;
    height: 80px;
    border-top: 1px solid black;
+}
+.login_div{
+    width: 60%;
+    background-color: red;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.input_div{
+    display: flex;
 }
